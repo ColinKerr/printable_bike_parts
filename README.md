@@ -4,9 +4,9 @@ Designs for 3d printable replacement parts for shimano 333 3 speed internal hub 
 
 ## Top Cover
 
-The plastic top cover on the shifter is easily broken rendering the shifter non-functional.  In my experience the rest of the shifter remains functional, so a replacement top cover fixes the issue.
+The plastic top cover on the shifter is easily broken rendering the shifter non-functional.  The rest of the shifter generally remains functional, so a replacement top cover fixes the issue.
 
-This part is designed to use 4mm shift housing with a plastic cable end inserted into the top cover.
+This part is designed to use 4mm shift housing with a plastic cable end inserted into the top cover.  Reuse the screw and internal metal plate from the original shifter.
 
 ![alt text](./images/topcover_installed.png)
 
