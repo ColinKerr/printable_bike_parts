@@ -1,3 +1,5 @@
+include <Chamfers-for-OpenSCAD/Chamfer.scad>;
+
 $fn = 64;
 
 module circle_text(text, size, height, radius, start_angle, char_spacing) {
@@ -11,17 +13,19 @@ module circle_text(text, size, height, radius, start_angle, char_spacing) {
     }
 }
 
-module create_shell (includeTab, roundEdges) {
-    union() {
+module create_shell (includeTab, chamfer) {
+    hull() {
         hull () {
-            cylinder(14, 20, 20, center = true);
-            translate([-14, 9, 0]) {
-                cube([28, 22, 14], center = true);
+            translate([0,0,-7]){
+                chamferCylinder(14, 20, 20, ch = 0, ch2 = chamfer);
+            }
+            translate([-28, -2, -7]) {
+                chamferCube([28, 22, 14], chamfers = [[0,0,1,0],[0,0,0,0],[0,0,0,0]], ch = chamfer);
             }
         }
         if (includeTab) {
-            translate([-33, 12.5, 0]) {
-                cube([10, 15, 14], center = true);
+            translate([-38, 5, -7]) {
+                chamferCube([10, 15, 14], chamfers = [[0,0,1,1],[0,0,0,0],[0,0,0,1]], ch = chamfer);
             }
         }
     }
@@ -52,7 +56,7 @@ module create_skirt_cutout () {
 }
 
 module create_cable_hole () {
-    translate ([-27, 12, 2]) {
+    translate ([-27, 12, 1]) {
         rotate([0, -90, 0]) {
             cylinder(30, 2.95, 2.95);
             translate([0, 0, -3]){
@@ -67,17 +71,17 @@ module create_cable_hole () {
 
 module create_text () {
     translate([0, 0, 6.1]) {
-        circle_text("321", 5, 1, 5, 70, 40);
+        circle_text("321", 6, 1, 5, 70, 40);
     }
 }
 
 difference () {
     union () {
         difference () {
-            create_shell(true, true);
+            create_shell(true, 1);
             translate ([0, 0, -1.5]) {
                 scale ([0.9, 0.9, 1]) {
-                    create_shell(false, false);
+                    create_shell(false, 0);
                 }
             }
         }

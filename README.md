@@ -1,25 +1,15 @@
-# Shimano 333 3-speed parts
+# Printable Bike Parts
 
-Designs for 3d printable replacement parts for shimano 333 3 speed internal hub parts.
+A repo for bike parts you can 3d print
 
-## Top Cover
+## Shimano 333 3-speed parts
 
-The plastic top cover on the shifter is easily broken rendering the shifter non-functional.  The rest of the shifter generally remains functional, so a replacement top cover fixes the issue.
+Replacement parts for shimano 333 3 speed internal hub parts.
 
-This part is designed to use 4mm shift housing with a plastic cable end inserted into the top cover.  Reuse the screw and internal metal plate from the original shifter.
 
-![alt text](./images/topcover_installed.png)
+- [Top Cover](./shimano_333/TopCover.md) - Replaces often broken top cover.
 
-This part is best printed in PETG but the example above is printed in PLA.
+## Clips
 
-### Top Cover 1
+- [Spoke Reflector Tab](./Clips/ReflectorSpokeTab.md) - 
 
-This design more closely resembles the orignial but has a more robust cable housing area.
-
-![alt text](./images/topcover1.png)
-
-### Top Cover 2
-
-This design has more plastic surrounding the cable housing area but no longer matches the oringal housings shape.
-
-![alt text](./images/topcover2.png)
