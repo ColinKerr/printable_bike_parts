@@ -11,5 +11,5 @@ Replacement parts for shimano 333 3 speed internal hub parts.
 
 ## Clips
 
-- [Spoke Reflector Tab](./Clips/ReflectorSpokeTab.md) - 
+- [Spoke Reflector Tab](./Clips/ReflectorSpokeTab.md) - Replaces tab used to hold reflectors on wheels via the spokes
 
