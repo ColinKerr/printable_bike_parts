@@ -2,6 +2,8 @@
 
 Used on many older bikes to hold wheel spoke reflectors onto spokes.  The original part often breaks, this is a clone or the original part, best printed in PETG.
 
+![Spoke Tabs](../images/ReflectorSpokeTab_assembled.jpg)
+
 ## Assembly instructions
 
 > Note: Make sure grove in tab fits snugly around spoke be for assembly
@@ -14,6 +16,7 @@ Use replacement tab as you would the original tab but note that screw will threa
 - Print top side down
 - 100% infill
 - 4 perimeters
+- No Supports
 
 ## ReflectorSpokeTab.scad
 
