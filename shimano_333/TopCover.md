@@ -22,6 +22,7 @@ Dissassemble the broken shifter keeping mind of the order of parts.  Swap the br
 - Print top side down
 - 100% infill
 - 4-6 perimeters
+- 0.1mm layer height
 - (Optional) Fuzzzy skin on outside walls and chamfers to hide print lines
 
 

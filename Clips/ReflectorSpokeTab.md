@@ -16,6 +16,7 @@ Use replacement tab as you would the original tab but note that screw will threa
 - Print top side down
 - 100% infill
 - 4 perimeters
+- 0.1mm layer height
 - No Supports
 
 ## ReflectorSpokeTab.scad
