@@ -6,7 +6,7 @@ Used on many modern bikes to hold wheel spoke reflectors onto a spoke.  The orig
 
 ## Assembly instructions
 
-![Reflector Screw Assembled](../images/ReflectorScrew_Installed.png)
+![Reflector Screw Assembled](../images/ReflectorScrew_Installed.jpg)
 
 > Note: Make sure to press in with screw driver before turning
 
